@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6a1b9a;
+}
+header .nav-link {
+  color: #333;
+}
+header .nav-link:hover {
+  color: #6a1b9a;
+}
+header .btn-primary {
+  background-color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+header .btn-primary:hover {
+  background-color: #4c136f;
+  border-color: #4c136f;
+}
+
+.hero-section {
+  background-color: #f3e5f5;
+  padding: 3rem 0;
+}
+.hero-section h1, .hero-section h2 {
+  color: #6a1b9a;
+}
+.hero-section img {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.team-section {
+  background-color: #ffffff;
+  padding: 3rem 0;
+}
+.team-section .card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.team-section .card .card-title {
+  color: #6a1b9a;
+  font-weight: bold;
+}
+.team-section .card .card-text {
+  color: #666;
+}
+
+.find-course-section {
+  background: linear-gradient(135deg, #6a1b9a 50%, #f3e5f5 50%);
+  color: #ffffff;
+  padding: 3rem 0;
+}
+.find-course-section h2 {
+  color: #ffffff;
+}
+.find-course-section form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.find-course-section form .form-control {
+  border-radius: 4px;
+}
+.find-course-section form .btn-primary {
+  background-color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+.find-course-section form .btn-primary:hover {
+  background-color: #4c136f;
+  border-color: #4c136f;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer h5 {
+  color: #6a1b9a;
+  font-weight: bold;
+}
+footer a {
+  color: #333;
+}
+footer a:hover {
+  color: #6a1b9a;
+}
+footer .btn-primary {
+  background-color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+footer .btn-primary:hover {
+  background-color: #4c136f;
+  border-color: #4c136f;
+}/*# sourceMappingURL=style.css.map */

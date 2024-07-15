@@ -1,0 +1,115 @@
+// styles.scss
+
+$primary-color: #6a1b9a;
+$secondary-color: #f3e5f5;
+$header-bg-color: #ffffff;
+$footer-bg-color: #f8f9fa;
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: $header-bg-color;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $primary-color;
+    }
+    .nav-link {
+        color: #333;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .btn-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+            border-color: darken($primary-color, 10%);
+        }
+    }
+}
+
+.hero-section {
+    background-color: $secondary-color;
+    padding: 3rem 0;
+    h1, h2 {
+        color: $primary-color;
+    }
+    img {
+        margin-top: 2rem;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.team-section {
+    background-color: #ffffff;
+    padding: 3rem 0;
+    .card {
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        .card-title {
+            color: $primary-color;
+            font-weight: bold;
+        }
+        .card-text {
+            color: #666;
+        }
+    }
+}
+
+.find-course-section {
+    background: linear-gradient(135deg, $primary-color 50%, $secondary-color 50%);
+    color: #ffffff;
+    padding: 3rem 0;
+    h2 {
+        color: #ffffff;
+    }
+    form {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 8px;
+        .form-control {
+            border-radius: 4px;
+        }
+        .btn-primary {
+            background-color: $primary-color;
+            border-color: $primary-color;
+            &:hover {
+                background-color: darken($primary-color, 10%);
+                border-color: darken($primary-color, 10%);
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $footer-bg-color;
+    padding: 2rem 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    h5 {
+        color: $primary-color;
+        font-weight: bold;
+    }
+    a {
+        color: #333;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .btn-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+            border-color: darken($primary-color, 10%);
+        }
+    }
+}
